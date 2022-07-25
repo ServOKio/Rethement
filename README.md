@@ -68,9 +68,11 @@ Example for `manifest.json`
       }
     }
   },
-  "simple_colors": {},
-  "colors": {},
-  "drawable_tints": {},
+  "colors": {
+    "simple_colors": {},
+    "colors": {},
+    "drawable": {}
+  },
   "fonts":{
     "all": "w400",
     "w100": false,
