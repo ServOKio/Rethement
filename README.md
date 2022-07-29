@@ -37,7 +37,9 @@ Example for `manifest.json`
     "name": "My theme",
     "transparency_mode": 3,
     "license": "GNU",
-    "updater": "-"
+    "updater": "-",
+    "tags": ["anime", "blue", "vanilla", "animated", "night", "stars"],
+    "rating": 0
   },
   "background": {
     "overlay_alpha": 112,
@@ -96,7 +98,16 @@ manifest ┐
          ├ transparency_mode (0 - none, 1 - chat, 2 - chat & settings, 3 - full, 4 - display homescreen wallpaper (including live wallpaper))
          ├ name (theme name)
          ├ licence (license for theme (MIT, GNU and etc.))
-         └ updater (raw url to .json file (only github and gitlab))
+         ├ updater (raw url to .json file (only github and gitlab))
+         ├ tags (tags that describe your theme)
+         └ rating (from 0 to 5.
+                        5 - Adults Only 18+ (Content suitable only for adults ages 18 and up. May include prolonged scenes of intense violence, graphic sexual content and/or gambling with real currency),
+                        4 - Mature 17+ (Content is generally suitable for ages 17 and up. May contain intense violence, blood and gore, sexual content and/or strong language)
+                        3 - Teen (Content is generally suitable for ages 13 and up. May contain violence, suggestive themes, crude humor, minimal blood, simulated gambling and/or infrequent use of strong language)
+                        2 - Everyone 10+ (Content is generally suitable for ages 10 and up. May contain more cartoon, fantasy or mild violence, mild language and/or minimal suggestive themes)
+                        1 - Everyone (Content is generally suitable for all ages. May contain minimal cartoon, fantasy or mild violence and/or infrequent use of mild language)
+                        0 - not specified
+                   )
 
 background ┐
            ├ portain ┐
